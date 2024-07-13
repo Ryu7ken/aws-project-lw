@@ -1,6 +1,6 @@
-<h2>Launching a RHEL9 GUI on Amazon EC2 Instance<h2>
+<h2>Launching a RHEL9 GUI on Amazon EC2 Instance</h2>
 
-<h3>Below is the step by step guide to configure a EC2 instance for RHEL9 GUI:<h3>
+<h3>Below is the step by step guide to configure a EC2 instance for RHEL9 GUI:</h3>
 
 ***Step-1:*** Go to EC2 Console and click on "Launch Instance".
 
@@ -109,4 +109,4 @@ sudo systemctl enable xrdp
 
 ![Remote](/assets/images/Remote3.png)
 
-<h3>Now you can use the GUI version of RHEL9 on your EC2 instance.<h3>
+<h3>Now you can use the GUI version of RHEL9 on your EC2 instance.</h3>
