@@ -32,11 +32,9 @@
 
 ***Step-7:*** Open your CMD and follow the steps from the image below to make a directory at your Desktop location and install the required dependencies.
 
-![mongofunc](/assets/images/mongofunc.png)
+![dir](/assets/images/dir.png)
 
 ***Step-8:*** Now open the directory that you created at your Desktop in Visual Studio Code.
-
-![dir](/assets/images/dir.png)
 
 ![diropen](/assets/images/diropen.png)
 
