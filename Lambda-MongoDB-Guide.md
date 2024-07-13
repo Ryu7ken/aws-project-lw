@@ -1,6 +1,6 @@
-<h2>Connecting MongoDB Atlas using AWS Lambda<h2>
+<h2>Connecting MongoDB Atlas using AWS Lambda</h2>
 
-<h3>Below is the step by step guide to setup this architecture:<h3>
+<h3>Below is the step by step guide to setup this architecture:</h3>
 
 ***Step-1:*** Login to your MongoDB Atlas account. Under the "DEPLOYMENT" section click on "Database" and then click on the button "Build a Cluster".
 
@@ -127,4 +127,4 @@ After Successful upload you will see this.
 
 ![access3](/assets/images/access3.png)
 
-<h3>Now you can connect to any of your MongoDB Database with this Serverless Architecture.<h3>
+<h3>Now you can connect to any of your MongoDB Database with this Serverless Architecture.</h3>

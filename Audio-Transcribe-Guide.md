@@ -1,6 +1,6 @@
-<h2>Creating a Event Driven Architecture by uploading a .mp3 or .mp4 file to S3 Bucket which triggers Lambda to convert the audio into text using Transcribe<h2>
+<h2>Creating a Event Driven Architecture by uploading a .mp3 or .mp4 file to S3 Bucket which triggers Lambda to convert the audio into text using Transcribe</h2>
 
-<h3>Below is the step by step guide to setup this architecture:<h3>
+<h3>Below is the step by step guide to setup this architecture:</h3>
 
 ***Step-1:*** Go to Lambda console and create a function.
 
@@ -67,4 +67,4 @@ def lambda_handler(event, context):
 
 ![Transcribe Output](/assets/images/Output.png)
 
-<h3>Now you can convert any audio form mp3 or mp4 into a text file with this architecture.<h3>
+<h3>Now you can convert any audio form mp3 or mp4 into a text file with this architecture.</h3>

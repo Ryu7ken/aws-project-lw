@@ -1,6 +1,6 @@
-<h2>Creating a Lambda function to retrieve Email IDs from object in S3 bucket and bulk Email using SES<h2>
+<h2>Creating a Lambda function to retrieve Email IDs from object in S3 bucket and bulk Email using SES</h2>
 
-<h3>Below is the step by step guide to setup this architecture:<h3>
+<h3>Below is the step by step guide to setup this architecture:</h3>
 
 ***Step-1:*** Lambda console, create a function by giving a name and selecting Python as the runtime. Then click on "Create function".
 
@@ -133,4 +133,4 @@ def lambda_handler(event, context):
 
 ![S3Upload](/assets/images/S3Upload3.png)
 
-<h3>Now you can send bulk emails using this architecture.<h3>
+<h3>Now you can send bulk emails using this architecture.</h3>
