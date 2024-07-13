@@ -42,22 +42,22 @@ elif ("cloudwatch" in choice or "log" in choice):
 elif ("rhel" in choice or "gui" in choice):
 
     print("You have chosen to Setup RHEL GUI in EC2 Instance\n")
-    print("Please visit this URL for the Guide: ")
+    print("Please visit this URL for the Guide: https://github.com/Ryu7ken/aws-project-lw/blob/main/RHEL-GUI-EC2-Guide.md")
 
 elif ("audio" in choice or "text" in choice):
 
     print("You have chosen to convert Audio to Text using Serverless Architecture\n")
-    print("Please visit this URL for the Guide: ")
+    print("Please visit this URL for the Guide: https://github.com/Ryu7ken/aws-project-lw/blob/main/Audio-Transcribe-Guide.md")
 
 elif ("mongodb" in choice or "mongo" in choice):
 
     print("You have chosen to Connect MongoDB with Lambda\n")
-    print("Please visit this URL for the Guide: ")
+    print("Please visit this URL for the Guide: https://github.com/Ryu7ken/aws-project-lw/blob/main/Lambda-MongoDB-Guide.md")
 
 elif ("mongodb" in choice or "mongo" in choice):
 
     print("You have chosen to make Serverless Architecture for Bulk Email with SES\n")
-    print("Please visit this URL for the Guide: ")
+    print("Please visit this URL for the Guide: https://github.com/Ryu7ken/aws-project-lw/blob/main/Bulk-Email-Guide.md")
 
 else:
     print("Please check your choice, it should relate to the MENU. Try again !")
