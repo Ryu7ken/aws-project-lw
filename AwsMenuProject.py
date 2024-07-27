@@ -1,3 +1,4 @@
+import speech_recognition as sr
 import awsec2
 import awss3
 import awslog
@@ -8,16 +9,24 @@ print("""\t\t\t  -------MENU-------\n
 \t\t         Launch EC2 Instance\n
 \t\t         Upload to S3 Bucket\n
 \t\t   Check CloudWatch Log for Lambda\n
-\t\t    Setup RHEL GUI in EC2 Instance\n
+\t\t    Setup RHEL Linux GUI in EC2 Instance\n
 \t\t Audio to Text Serverless Architecture\n
 \t\t      Connect MongoDB with Lambda\n
 \t\t     Serverless Bulk Email with SES\n
 \t\t\t\t  Exit\n""")
 
+print("Speak what you want from the Menu and it will be done! NOTE: You have 7 seconds to Speak your choice.")
+
+
 while True:
-    choice = input("Tell me and I will do it! ")
+    recog = sr.Recognizer()
+    with sr.Microphone() as mymic:
+        audio = recog.record(mymic, duration=7)
+        choice1 = recog.recognize_google(audio)
+        choice = choice1.lower()
+        print(choice)
     
-    if ("launch" in choice or "ec2" in choice or "instance" in choice):
+    if ("ec2" in choice or "instance" in choice):
         
         print("You have chosen to Launch EC2 Instance")
         InstanceType = input("Enter the Instance type: ")
@@ -41,7 +50,7 @@ while True:
     
         awslog()
     
-    elif ("rhel" in choice or "gui" in choice):
+    elif ("rhel" in choice or "setup" in choice or "linux" in choice or "gui" in choice):
     
         print("You have chosen to Setup RHEL GUI in EC2 Instance\n")
         print("Please visit this URL for the Guide: https://github.com/Ryu7ken/aws-project-lw/blob/main/RHEL-GUI-EC2-Guide.md")
@@ -56,7 +65,7 @@ while True:
         print("You have chosen to Connect MongoDB with Lambda\n")
         print("Please visit this URL for the Guide: https://github.com/Ryu7ken/aws-project-lw/blob/main/Lambda-MongoDB-Guide.md")
     
-    elif ("mongodb" in choice or "mongo" in choice):
+    elif ("bulk" in choice or "email" in choice):
     
         print("You have chosen to make Serverless Architecture for Bulk Email with SES\n")
         print("Please visit this URL for the Guide: https://github.com/Ryu7ken/aws-project-lw/blob/main/Bulk-Email-Guide.md")
