@@ -3,7 +3,9 @@
 <h3>
 Created a menu project in Python for using different AWS Services and also step-by-step guide on making different Serverless Architecture.
 The menu is created in a way that the user has to Speak through the microphone what they want to do from the menu.
+</h3>
 
+<h3>
 Content of the menu project :
 
 1.	Launch EC2 instance by providing the Instance type, AMI, Maximum Count and Minimum Count. 
@@ -19,5 +21,4 @@ Content of the menu project :
 6.	Step-by-step guide on building a Serverless Architecture with Lambda which retrieves Email IDs from S3 object and send bulk Email using SES. (with images for reference)
 
 7.	Step-by-step guide on building a Serverless Architecture with Lambda to connect to MongoDB Atlas cluster and input documents into the database. (with images for reference)
-
 </h3>
