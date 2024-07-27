@@ -5,6 +5,7 @@ Created a menu project in Python for using different AWS Services and also step-
 The menu is created in a way that the user has to Speak through the microphone what they want to do from the menu.
 
 Content of the menu project :
+
 1.	Launch EC2 instance by providing the Instance type, AMI, Maximum Count and Minimum Count. 
 
 2.	Upload anything to S3 bucket by providing name of the S3 bucket and the file name to be uploaded.
