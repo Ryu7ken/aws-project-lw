@@ -51,17 +51,17 @@ def lambda_handler(event, context):
 
 ***Step-7:*** Go to S3 Console and create 2 buckets, one for inputs which will triger the Lambda function and one to get output of Transcribe. Give unique names to your buckets and click on "Create bucket".
 
-![Create Bucket](/assets/images/CreateBucket.png)
+![Create Bucket](/assets/images/Createbucket.png)
 
-![Create Bucket](/assets/images/CreateBucket2.png)
+![Create Bucket](/assets/images/Createbucket2.png)
 
 ***Step-8:*** Go to your S3 bucket that in which you want to input your files, then go to "Properties" and then scroll down to "Event notifications", then click on "Create event notification".
 
-![Create Event](/assets/images/CreateEvent.png)
+![Create Event](/assets/images/Createevent.png)
 
 ***Step-9:*** Give your event a name, then in "Event types" click on "All object create events". Then at "Destination" select "Lambda function" and select the Lambda function that you had created and click "Save changes".
 
-![Create Event](/assets/images/CreateEvent2.png)
+![Create Event](/assets/images/Createevent2.png)
 
 ***Step-10:*** Now upload your mp3 file to the S3 bucket that you created for input. And you will get the output of Transcribe in the S3 bucket that you had mentioned in the Lambda code in "OutputBucketName".
 
